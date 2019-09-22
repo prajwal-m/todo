@@ -1,0 +1,16 @@
+.droppable {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 100px;
+  background-color: black;
+}
+
+.task-header {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+}

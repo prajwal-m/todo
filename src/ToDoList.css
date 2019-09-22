@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.container-drag {
+  text-align: center;
+}
+.todo {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 100px;
+  background-color: black;
+  border-right: 1px solid;
+}
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  color: white;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.task-header {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+}
+.droppable {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 100px;
+  background-color: black;
+}
+.draggable {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  border: 1px solid black;
+  background-color: darkgray;
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  background-color: darkgray;
+  border-bottom: 1px solid black;
+}
